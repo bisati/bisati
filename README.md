@@ -20,11 +20,13 @@ I built it 0→1 as the product owner across three generations of the assistant:
 
 ## Things I've built
 
-### [Learning Compiler](https://learning-compiler.vercel.app): learn the thing, not the video · [source](https://github.com/bisati/learning-compiler)
+### [Cutlist](https://cutlist-learn.vercel.app): only the minutes that matter · [source](https://github.com/bisati/cutlist)
 
-YouTube already has the explanation you need. It is buried in minute 34 of an hour-long video you have not found yet. Say what you want to understand and how long you have, and this returns the exact minutes worth watching, in the order that teaches them, each timestamped so you land on the part that answers the question. Two hours on "how RAG works" comes back as 26 segments from 25 creators filling 119 of your 120 minutes.
+YouTube already has the explanation you need. It is buried in minute 34 of an hour-long video you have not found yet, and you do not yet know which of the other nine ideas you also need.
 
-It also tells you what it could not cover: when part of a topic has nothing good enough behind it, that part is named on the page and struck through rather than quietly padded with something loosely related.
+Say what you want to understand and how long you have. Cutlist works out what the topic is actually made of, decides how many of those ideas fit your time, finds the clearest explanation of each across YouTube, and sequences them so each one is ready for the next. Two hours on "how RAG works" comes apart into nine ideas and comes back as 26 segments from 25 creators filling 119 of your 120 minutes. You see the breakdown on the page above the plan, so you know the shape of what you are about to learn before you start.
+
+Where an idea has nothing good enough behind it, it is named and struck through rather than quietly padded with something loosely related.
 
 Built with Node, no framework and no build step, on an index that ships inside the deployment rather than sitting behind a database. Nothing is rehosted or re-uploaded; every link opens the creator's own video at the right second.
 
