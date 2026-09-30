@@ -26,8 +26,6 @@ YouTube already has the explanation you need. It is buried in minute 34 of an ho
 
 Say what you want to understand and how long you have. Cutlist works out what the topic is actually made of, decides how many of those ideas fit your time, finds the clearest explanation of each across YouTube, and sequences them so each one is ready for the next. Two hours on "how RAG works" comes apart into nine ideas and comes back as 26 segments from 25 creators filling 119 of your 120 minutes. You see the breakdown on the page above the plan, so you know the shape of what you are about to learn before you start.
 
-Where an idea has nothing good enough behind it, it is named and struck through rather than quietly padded with something loosely related.
-
 Built with Node, no framework and no build step, on an index that ships inside the deployment rather than sitting behind a database. Nothing is rehosted or re-uploaded; every link opens the creator's own video at the right second.
 
 ---
