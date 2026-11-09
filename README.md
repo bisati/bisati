@@ -20,6 +20,18 @@ I built it 0→1 as the product owner across three generations of the assistant:
 
 ## Things I've built
 
+### [News House](https://news-house.vercel.app): a newspaper with one reader · [source](https://github.com/bisati/news-house)
+
+I was spending two hours a day on Instagram for ten minutes of value. News House replaces it: every morning it reads 244 sources, ranks them by how much I would regret missing each one, and writes a paper I can finish in fifteen minutes. Then it says I'm caught up, and nothing loads past that.
+
+A model writes each post and picks one of thirteen ways to show it: a fact sheet for a launch, what changes for you for a new rule, a court case as its steps, a rumour checked against who is actually saying it. Code checks every number, name and date in that visual against the sources the post cites. A visual that does not hold up is dropped and the post keeps its text, so a wrong number costs a picture, not a story.
+
+Built with Python and Claude, running unattended on a Mac and published to Vercel.
+
+[How the visuals are chosen](https://github.com/bisati/news-house/blob/main/docs/design-visuals.md) · [How this was built](https://github.com/bisati/news-house/blob/main/docs/how-this-was-built.md)
+
+---
+
 ### [Cutlist](https://cutlist-learn.vercel.app): only the minutes that matter · [source](https://github.com/bisati/cutlist)
 
 YouTube already has the explanation you need. It is buried in minute 34 of an hour-long video you have not found yet, and you do not yet know which of the other nine ideas you also need.
